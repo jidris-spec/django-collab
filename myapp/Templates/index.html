@@ -1,0 +1,670 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travello</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Travello template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+</head>
+<body>
+
+<div class="super_container">
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                        <div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
+                            <div class="logo"><a href="index.html">Travello</a></div>
+                            <nav class="main_nav">
+                                <ul class="d-flex flex-row align-items-start justify-content-start">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header_phone ml-auto">Call us: 00-56 445 678 33</div>
+
+                            <!-- Hamburger -->
+
+                            <div class="hamburger ml-auto">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_social d-flex flex-row align-items-center justify-content-start">
+            <ul class="d-flex flex-row align-items-start justify-content-start">
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu">
+        <div class="menu_header d-flex flex-row align-items-center justify-content-start">
+            <div class="menu_logo"><a href="index.html">Travello</a></div>
+            <div class="menu_close_container ml-auto">
+                <div class="menu_close">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu_content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu_social">
+            <div class="menu_phone ml-auto">Call us: 00-56 445 678 33</div>
+            <ul class="d-flex flex-row align-items-start justify-content-start">
+                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+
+        <!-- Home Slider -->
+        <div class="home_slider_container">
+            <div class="owl-carousel owl-theme home_slider">
+
+                <!-- Slide -->
+                <div class="owl-item">
+                    <div class="background_image" style="background-image:url({% static 'images/home_slider.jpg' %})"></div>
+                    <div class="home_slider_content_container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="home_slider_content">
+                                        <div class="home_title"><h2>Let us take you away</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide -->
+                <div class="owl-item">
+                    <div class="background_image" style="background-image:url({% static 'images/home_slider.jpg' %})"></div>
+                    <div class="home_slider_content_container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="home_slider_content">
+                                        <div class="home_title"><h2>Let us take you away</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide -->
+                <div class="owl-item">
+                    <div class="background_image" style="background-image:url({% static 'images/home_slider.jpg' %})"></div>
+                    <div class="home_slider_content_container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="home_slider_content">
+                                        <div class="home_title"><h2>Let us take you away</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="home_page_nav">
+                <ul class="d-flex flex-column align-items-end justify-content-end">
+                    <li><a href="#" data-scroll-to="#destinations">Offers<span>01</span></a></li>
+                    <li><a href="#" data-scroll-to="#testimonials">Testimonials<span>02</span></a></li>
+                    <li><a href="#" data-scroll-to="#news">Latest<span>03</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search -->
+
+    <div class="home_search">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="home_search_container">
+                        <div class="home_search_title">Search for your trip</div>
+                        <div class="home_search_content">
+                            <form action="#" class="home_search_form" id="home_search_form">
+                                <div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
+                                    <input type="text" class="search_input search_input_1" placeholder="City" required="required">
+                                    <input type="text" class="search_input search_input_2" placeholder="Departure" required="required">
+                                    <input type="text" class="search_input search_input_3" placeholder="Arrival" required="required">
+                                    <input type="text" class="search_input search_input_4" placeholder="Budget" required="required">
+                                    <button class="home_search_button">search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Intro -->
+
+    <div class="intro">
+        <div class="intro_background" style="background-image:url({% static 'images/intro.png' %})"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="intro_container">
+                        <div class="row">
+
+                            <!-- Intro Item -->
+                            <div class="col-lg-4 intro_col">
+                                <div class="intro_item d-flex flex-row align-items-end justify-content-start">
+                                    <div class="intro_icon"><img src="{% static 'images/beach.svg' %}" alt=""></div>
+                                    <div class="intro_content">
+                                        <div class="intro_title">Top Destinations</div>
+                                        <div class="intro_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Intro Item -->
+                            <div class="col-lg-4 intro_col">
+                                <div class="intro_item d-flex flex-row align-items-end justify-content-start">
+                                    <div class="intro_icon"><img src="{% static 'images/wallet.svg' %}" alt=""></div>
+                                    <div class="intro_content">
+                                        <div class="intro_title">The Best Prices</div>
+                                        <div class="intro_subtitle"><p>Sollicitudin mauris lobortis in.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Intro Item -->
+                            <div class="col-lg-4 intro_col">
+                                <div class="intro_item d-flex flex-row align-items-end justify-content-start">
+                                    <div class="intro_icon"><img src="{% static 'images/suitcase.svg' %}" alt=""></div>
+                                    <div class="intro_content">
+                                        <div class="intro_title">Amazing Services</div>
+                                        <div class="intro_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+
+    <div class="cta">
+        <div class="cta_background" style="background-image:url({% static 'images/cta.jpg' %})"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <!-- CTA Slider -->
+                    <div class="cta_slider_container">
+                        <div class="owl-carousel owl-theme cta_slider">
+
+                            <!-- CTA Slider Item -->
+                            <div class="owl-item cta_item text-center">
+                                <div class="cta_title">maldives deluxe package</div>
+                                <div class="rating_r rating_r_4">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                                <p class="cta_text">Nulla pretium tincidunt felis, nec.</p>
+                                <div class="button cta_button"><a href="#">see more</a></div>
+                            </div>
+
+                            <!-- CTA Slider Item -->
+                            <div class="owl-item cta_item text-center">
+                                <div class="cta_title">maldives deluxe package</div>
+                                <div class="rating_r rating_r_4">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                                <p class="cta_text">Nulla pretium tincidunt felis, nec.</p>
+                                <div class="button cta_button"><a href="#">see more</a></div>
+                            </div>
+
+                            <!-- CTA Slider Item -->
+                            <div class="owl-item cta_item text-center">
+                                <div class="cta_title">maldives deluxe package</div>
+                                <div class="rating_r rating_r_4">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+                                <p class="cta_text">Nulla pretium tincidunt felis, nec.</p>
+                                <div class="button cta_button"><a href="#">see more</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offers -->
+
+    <div class="offers" id="destinations">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="section_title">the best offers with rooms</h2>
+                </div>
+            </div>
+            <div class="row offers_items">
+
+                <!-- Offers Item -->
+                <div class="col-lg-6 offers_col">
+                    <div class="offers_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers_image_container">
+                                    <!-- Image by https://unsplash.com/@kensuarez -->
+                                    <div class="offers_image_background" style="background-image:url({% static 'images/offer_1.jpg' %})"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="offers_content">
+                                    <div class="offers_price">$70<span>per night</span></div>
+                                    <div class="rating_r rating_r_4 offers_rating">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                    </div>
+                                    <div class="offers_name"><a href="single_listing.html">Grand Castle</a></div>
+                                    <p class="offers_text">Nulla pretium tincidunt felis, nec.</p>
+                                    <div class="offers_icons">
+                                        <ul class="offers_icons_list">
+                                            <li class="offers_icons_item"><img src="{% static 'images/post.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/compass.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/bicycle.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/sailboat.png' %}" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="button book_button"><a href="#">book now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offers Item -->
+                <div class="col-lg-6 offers_col">
+                    <div class="offers_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers_image_container">
+                                    <!-- Image by Egzon Bytyqi -->
+                                    <div class="offers_image_background" style="background-image:url({% static 'images/offer_2.jpg' %})"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="offers_content">
+                                    <div class="offers_price">$50<span>per night</span></div>
+                                    <div class="rating_r rating_r_4 offers_rating">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                    </div>
+                                    <div class="offers_name"><a href="single_listing.html">Grand Castle</a></div>
+                                    <p class="offers_text">Nulla pretium tincidunt felis, nec.</p>
+                                    <div class="offers_icons">
+                                        <ul class="offers_icons_list">
+                                            <li class="offers_icons_item"><img src="{% static 'images/post.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/compass.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/bicycle.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/sailboat.png' %}" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="button book_button"><a href="#">book now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offers Item -->
+                <div class="col-lg-6 offers_col">
+                    <div class="offers_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers_image_container">
+                                    <!-- Image by https://unsplash.com/@nevenkrcmarek -->
+                                    <div class="offers_image_background" style="background-image:url({% static 'images/offer_3.jpg' %})"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="offers_content">
+                                    <div class="offers_price">$110<span>per night</span></div>
+                                    <div class="rating_r rating_r_4 offers_rating">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                    </div>
+                                    <div class="offers_name"><a href="single_listing.html">Grand Castle</a></div>
+                                    <p class="offers_text">Nulla pretium tincidunt felis, nec.</p>
+                                    <div class="offers_icons">
+                                        <ul class="offers_icons_list">
+                                            <li class="offers_icons_item"><img src="{% static 'images/post.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/compass.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/bicycle.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/sailboat.png' %}" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="button book_button"><a href="#">book now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offers Item -->
+                <div class="col-lg-6 offers_col">
+                    <div class="offers_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers_image_container">
+                                    <!-- Image by https://unsplash.com/@mantashesthaven -->
+                                    <div class="offers_image_background" style="background-image:url({% static 'images/offer_4.jpg' %})"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="offers_content">
+                                    <div class="offers_price">$50<span>per night</span></div>
+                                    <div class="rating_r rating_r_4 offers_rating">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                    </div>
+                                    <div class="offers_name"><a href="single_listing.html">Grand Castle</a></div>
+                                    <p class="offers_text">Nulla pretium tincidunt felis, nec.</p>
+                                    <div class="offers_icons">
+                                        <ul class="offers_icons_list">
+                                            <li class="offers_icons_item"><img src="{% static 'images/post.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/compass.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/bicycle.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/sailboat.png' %}" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="button book_button"><a href="#">book now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offers Item -->
+                <div class="col-lg-6 offers_col">
+                    <div class="offers_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers_image_container">
+                                    <!-- Image by https://unsplash.com/@mantashesthaven -->
+                                    <div class="offers_image_background" style="background-image:url({% static 'images/offer_5.jpg' %})"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="offers_content">
+                                    <div class="offers_price">$50<span>per night</span></div>
+                                    <div class="rating_r rating_r_4 offers_rating">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                    </div>
+                                    <div class="offers_name"><a href="single_listing.html">Grand Castle</a></div>
+                                    <p class="offers_text">Nulla pretium tincidunt felis, nec.</p>
+                                    <div class="offers_icons">
+                                        <ul class="offers_icons_list">
+                                            <li class="offers_icons_item"><img src="{% static 'images/post.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/compass.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/bicycle.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/sailboat.png' %}" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="button book_button"><a href="#">book now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offers Item -->
+                <div class="col-lg-6 offers_col">
+                    <div class="offers_item">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="offers_image_container">
+                                    <!-- Image by https://unsplash.com/@seefromthesky -->
+                                    <div class="offers_image_background" style="background-image:url({% static 'images/offer_6.jpg' %})"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="offers_content">
+                                    <div class="offers_price">$50<span>per night</span></div>
+                                    <div class="rating_r rating_r_4 offers_rating">
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                        <i></i>
+                                    </div>
+                                    <div class="offers_name"><a href="single_listing.html">Grand Castle</a></div>
+                                    <p class="offers_text">Nulla pretium tincidunt felis, nec.</p>
+                                    <div class="offers_icons">
+                                        <ul class="offers_icons_list">
+                                            <li class="offers_icons_item"><img src="{% static 'images/post.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/compass.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/bicycle.png' %}" alt=""></li>
+                                            <li class="offers_icons_item"><img src="{% static 'images/sailboat.png' %}" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="button book_button"><a href="#">book now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+
+    <div class="testimonials">
+        <div class="test_border"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section_title text-center"><h2>what our clients say about us</h2></div>
+                </div>
+            </div>
+            <div class="row testimonials_row">
+
+                <!-- Testimonial Item -->
+                <div class="col-lg-4 testimonial_col">
+                    <div class="testimonial">
+                        <div class="testimonial_title">Best holliday ever</div>
+                        <div class="testimonial_text">Nulla pretium tincidunt felis, nec.</div>
+                        <div class="testimonial_author d-flex flex-row align-items-center justify-content-start">
+                            <div class="author_image"><div><img src="{% static 'images/author_1.jpg' %}" alt=""></div></div>
+                            <div class="testimonial_author_name">Katy Williams, <span>Client</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Item -->
+                <div class="col-lg-4 testimonial_col">
+                    <div class="testimonial">
+                        <div class="testimonial_title">Best holliday ever</div>
+                        <div class="testimonial_text">Nulla pretium tincidunt felis, nec.</div>
+                        <div class="testimonial_author d-flex flex-row align-items-center justify-content-start">
+                            <div class="author_image"><div><img src="{% static 'images/author_2.jpg' %}" alt=""></div></div>
+                            <div class="testimonial_author_name">Katy Williams, <span>Client</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Item -->
+                <div class="col-lg-4 testimonial_col">
+                    <div class="testimonial">
+                        <div class="testimonial_title">Best holliday ever</div>
+                        <div class="testimonial_text">Nulla pretium tincidunt felis, nec.</div>
+                        <div class="testimonial_author d-flex flex-row align-items-center justify-content-start">
+                            <div class="author_image"><div><img src="{% static 'images/author_3.jpg' %}" alt=""></div></div>
+                            <div class="testimonial_author_name">Katy Williams, <span>Client</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Footer Column -->
+                <div class="col-lg-4 footer_col">
+                    <div class="footer_about">
+                        <!-- Logo -->
+                        <div class="footer_logo">
+                            <a href="#"><img src="{% static 'images/logo.png' %}" alt="">travelix</a>
+                        </div>
+                        <div class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleifend leo non felis aliquet varius.</div>
+                        <div class="footer_social">
+                            <ul class="footer_social_list">
+                                <li class="footer_social_item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="footer_social_item"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="footer_social_item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="footer_social_item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li class="footer_social_item"><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Column -->
+                <div class="col-lg-4 footer_col">
+                    <div class="footer_blog">
+                        <div class="footer_title">blog posts</div>
+                        <div class="footer_blog_item clearfix">
+                            <div class="footer_blog_image"><img src="{% static 'images/footer_blog_1.jpg' %}" alt="https://unsplash.com/@avidenov"></div>
+                            <div class="footer_blog_content">
+                                <div class="footer_blog_title"><a href="blog.html">Travel with us this year</a></div>
+                                <div class="footer_blog_date">Nov 29, 2017</div>
+                            </div>
+                        </div>
+                        <div class="footer_blog_item clearfix">
+                            <div class="footer_blog_image"><img src="{% static 'images/footer_blog_2.jpg' %}" alt="https://unsplash.com/@deannaritchie"></div>
+                            <div class="footer_blog_content">
+                                <div class="footer_blog_title"><a href="blog.html">New destinations for you</a></div>
+                                <div class="footer_blog_date">Nov 29, 2017</div>
+                            </div>
+                        </div>
+                        <div class="footer_blog_item clearfix">
+                            <div class="footer_blog_image"><img src="{% static 'images/footer_blog_3.jpg' %}" alt="https://unsplash.com/@bergeryap87"></div>
+                            <div class="footer_blog_content">
+                                <div class="footer_blog_title"><a href="blog.html">Travel with us this year</a></div>
+                                <div class="footer_blog_date">Nov 29, 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Column -->
+                <div class="col-lg-4 footer_col">
+                    <div class="tags footer_tags">
+                        <div class="footer_title">tags</div>
+                        <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+                            <li class="tag"><a href="#">travel</a></li>
+                            <li class="tag"><a href="#">summer</a></li>
+                            <li class="tag"><a href="#">autumn</a></li>
+                            <li class="tag"><a href="#">winter</a></li>
+                            <li class="tag"><a href="#">beach</a></li>
+                            <li class="tag"><a href="#">booking</a></li>
+                            <li class="tag"><a href="#">offer</a></li>
+                            <li class="tag"><a href="#">vacation</a></li>
+                            <li class="tag"><a href="#">trip</a></li>
+                            <li class="tag"><a href="#">city break</a></li>
+                            <li class="tag"><a href="#">adventure</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
